@@ -1,0 +1,44 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Layout.master.cs" Inherits="Projeto.WEB.AreaRestrita.Templates.Layout" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    
+    <title>BlueOpex</title>
+
+    <!-- folhas de estilo CSS -->   
+    <link href="../../Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="../../Content/bootstrap-grid.min.css" rel="stylesheet" />
+
+    <!-- Arquivos javascript -->
+    <script src="../../Scripts/jquery-3.0.0.min.js"></script>
+    <script src="../../Scripts/bootstrap.min.js"></script>
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+</head>
+<body class="container">
+    <form id="form1" runat="server">
+        <div>
+            <div class="well well-sm jumbotron">
+                <h2>Sistema de Agenda</h2>
+            </div>
+
+            <div class="row">
+                <div class="col-md-3">
+                    <strong>Usuário Autenticado</strong>
+                </div>
+
+                <div class="col-md-6">
+                    <!-- Área para receber conteudo de outras páginas-->
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

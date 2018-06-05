@@ -1,0 +1,6 @@
+C:\Users\link7\Desktop\BlueOpex\Web Forms\Asp.Net-WebForms\Projeto.DAL\bin\Debug\Projeto.DAL.dll
+C:\Users\link7\Desktop\BlueOpex\Web Forms\Asp.Net-WebForms\Projeto.DAL\bin\Debug\Projeto.DAL.pdb
+C:\Users\link7\Desktop\BlueOpex\Web Forms\Asp.Net-WebForms\Projeto.DAL\obj\Debug\Projeto.DAL.csprojAssemblyReference.cache
+C:\Users\link7\Desktop\BlueOpex\Web Forms\Asp.Net-WebForms\Projeto.DAL\obj\Debug\Projeto.DAL.csproj.CoreCompileInputs.cache
+C:\Users\link7\Desktop\BlueOpex\Web Forms\Asp.Net-WebForms\Projeto.DAL\obj\Debug\Projeto.DAL.dll
+C:\Users\link7\Desktop\BlueOpex\Web Forms\Asp.Net-WebForms\Projeto.DAL\obj\Debug\Projeto.DAL.pdb
