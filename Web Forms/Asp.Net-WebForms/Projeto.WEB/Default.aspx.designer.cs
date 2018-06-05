@@ -49,6 +49,15 @@ namespace Projeto.WEB {
         protected global::System.Web.UI.WebControls.Button btnAcesso;
         
         /// <summary>
+        /// Controle lblMensagem.
+        /// </summary>
+        /// <remarks>
+        /// Campo gerado automaticamente.
+        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblMensagem;
+        
+        /// <summary>
         /// Controle txtNome.
         /// </summary>
         /// <remarks>
@@ -85,13 +94,13 @@ namespace Projeto.WEB {
         protected global::System.Web.UI.WebControls.TextBox txtSenhaConfirm;
         
         /// <summary>
-        /// Controle txtFoto.
+        /// Controle txtEmpresa.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.FileUpload txtFoto;
+        protected global::System.Web.UI.WebControls.TextBox txtEmpresa;
         
         /// <summary>
         /// Controle btnCadastro.

@@ -14,7 +14,7 @@ namespace Projeto.Entidades
         private string login;
         private string senha;
         private string empresa;
-        private List<Computador> idComputador;
+        /*private List<Computador> idComputador;*/
 
         public Usuario()
         {

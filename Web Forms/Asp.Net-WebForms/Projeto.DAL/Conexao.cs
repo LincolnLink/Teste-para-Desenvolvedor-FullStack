@@ -16,7 +16,7 @@ namespace Projeto.DAL
 
         protected void OpenConnection()
         {
-            con = new SqlConnection();
+            con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\link7\Desktop\BlueOpex\Web Forms\Asp.Net-WebForms\Projeto.WEB\App_Data\banco.mdf;Integrated Security=True");
             con.Open(); //conectando!
         }
 

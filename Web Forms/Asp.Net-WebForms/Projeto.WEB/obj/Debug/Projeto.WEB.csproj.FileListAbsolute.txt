@@ -48,7 +48,16 @@ C:\Users\link7\Desktop\BlueOpex\Web Forms\Asp.Net-WebForms\Projeto.WEB\bin\rosly
 C:\Users\link7\Desktop\BlueOpex\Web Forms\Asp.Net-WebForms\Projeto.WEB\bin\roslyn\VBCSCompiler.exe
 C:\Users\link7\Desktop\BlueOpex\Web Forms\Asp.Net-WebForms\Projeto.WEB\bin\roslyn\VBCSCompiler.exe.config
 C:\Users\link7\Desktop\BlueOpex\Web Forms\Asp.Net-WebForms\Projeto.WEB\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\link7\Desktop\BlueOpex\Web Forms\Asp.Net-WebForms\Projeto.WEB\bin\Projeto.BLL.dll
+C:\Users\link7\Desktop\BlueOpex\Web Forms\Asp.Net-WebForms\Projeto.WEB\bin\Projeto.DAL.dll
+C:\Users\link7\Desktop\BlueOpex\Web Forms\Asp.Net-WebForms\Projeto.WEB\bin\Projeto.Entidades.dll
+C:\Users\link7\Desktop\BlueOpex\Web Forms\Asp.Net-WebForms\Projeto.WEB\bin\Projeto.Util.dll
+C:\Users\link7\Desktop\BlueOpex\Web Forms\Asp.Net-WebForms\Projeto.WEB\bin\Projeto.BLL.pdb
+C:\Users\link7\Desktop\BlueOpex\Web Forms\Asp.Net-WebForms\Projeto.WEB\bin\Projeto.DAL.pdb
+C:\Users\link7\Desktop\BlueOpex\Web Forms\Asp.Net-WebForms\Projeto.WEB\bin\Projeto.Entidades.pdb
 C:\Users\link7\Desktop\BlueOpex\Web Forms\Asp.Net-WebForms\Projeto.WEB\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\link7\Desktop\BlueOpex\Web Forms\Asp.Net-WebForms\Projeto.WEB\bin\Projeto.Util.pdb
+C:\Users\link7\Desktop\BlueOpex\Web Forms\Asp.Net-WebForms\Projeto.WEB\obj\Debug\Projeto.WEB.csprojAssemblyReference.cache
 C:\Users\link7\Desktop\BlueOpex\Web Forms\Asp.Net-WebForms\Projeto.WEB\obj\Debug\Projeto.WEB.csproj.CoreCompileInputs.cache
 C:\Users\link7\Desktop\BlueOpex\Web Forms\Asp.Net-WebForms\Projeto.WEB\obj\Debug\Projeto.WEB.csproj.CopyComplete
 C:\Users\link7\Desktop\BlueOpex\Web Forms\Asp.Net-WebForms\Projeto.WEB\obj\Debug\Projeto.WEB.dll

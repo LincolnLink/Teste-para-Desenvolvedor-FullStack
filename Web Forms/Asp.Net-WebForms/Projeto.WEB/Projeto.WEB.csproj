@@ -68,6 +68,10 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Data\banco.mdf" />
+    <Content Include="App_Data\banco_log.ldf">
+      <DependentUpon>banco.mdf</DependentUpon>
+    </Content>
     <Content Include="AreaRestrita\CadastroPC.aspx" />
     <Content Include="AreaRestrita\ConsultaPC.aspx" />
     <Content Include="AreaRestrita\Home.aspx" />
@@ -180,7 +184,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="App_Data\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
@@ -188,6 +191,20 @@
   </ItemGroup>
   <ItemGroup>
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Projeto.BLL\Projeto.BLL.csproj">
+      <Project>{9852c478-ee81-41d2-9cca-769a38ba5a01}</Project>
+      <Name>Projeto.BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Projeto.DAL\Projeto.DAL.csproj">
+      <Project>{d763cee6-aa67-4d0c-abc5-64cbeae155f1}</Project>
+      <Name>Projeto.DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Projeto.Entidades\Projeto.Entidades.csproj">
+      <Project>{ae7f5e3a-a005-4f8f-859f-ea3a2e4498f6}</Project>
+      <Name>Projeto.Entidades</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

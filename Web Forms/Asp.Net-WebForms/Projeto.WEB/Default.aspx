@@ -40,11 +40,16 @@
                             <br />
                             <asp:Button ID="btnAcesso" runat="server" Text="Acessar Sistema" CssClass="btn btn-primary" />
                             <hr />
+                            <br />  
+                            
+                            <asp:Label ID="lblMensagem" runat="server"></asp:Label>
+                            <br />  
                                 Não possui conta?
                             <a href="#" data-target="#janela" data-toggle="modal">
                                 Cadastre-se aqui
                             </a>
                         </div>
+
                     </div>
                 </div>
             </div>
@@ -83,13 +88,15 @@
                             <br />
                             <div class="row">
                                 <div class="col-md-12">
-                                    <label>Envie sua foto:</label>
-                                    <asp:FileUpload ID="txtFoto" runat="server" CssClass="form-control" />
+                                    <label>Nome da Empresa:</label>
+                                    <asp:TextBox ID="txtEmpresa" runat="server" CssClass="form-control" />
                                 </div>
                             </div>
+                            <br />                           
                         </div>
                         <div class="modal-footer">
-                            <asp:Button ID="btnCadastro" runat="server" Text="Criar Conta de Usuário" CssClass="btn btn-success" />
+                            <asp:Button ID="btnCadastro" runat="server" Text="Criar Conta de Usuário"
+                                CssClass="btn btn-success" OnClick="BtnCadastro_Click" />
                         </div>
                     </div>
                 </div>

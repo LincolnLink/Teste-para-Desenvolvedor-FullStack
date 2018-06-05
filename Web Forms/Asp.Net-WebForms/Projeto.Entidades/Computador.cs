@@ -17,7 +17,7 @@ namespace Projeto.Entidades
         private string hdMarca;
         private string velocidadeProcessador;
         private string foto;
-        private Usuario empresa;
+        /*private Usuario empresa;*/
 
         public Computador()
         {
