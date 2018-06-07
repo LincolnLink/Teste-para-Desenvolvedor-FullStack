@@ -37,7 +37,7 @@ namespace Projeto.WEB.AreaRestrita
                 ComputadorBusiness business = new ComputadorBusiness();
                 business.Cadastrar(c);
 
-                lblMensagem.Text = "Tarefa " + c.Marca + ", cadastrado com sucesso.";
+                lblMensagem.Text = "Computador" + c.Marca + ", cadastrado com sucesso.";
 
                 //limpar os campos do formulário..
                 txtMarca.Text = string.Empty; //vazio..

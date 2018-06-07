@@ -11,12 +11,12 @@ namespace Projeto.DAL
 {
     public class ComputadorRepositorio : Conexao
     {
-        //método para gravar uma tarefa no banco de dados..
+        //método para gravar uma computadores no banco de dados..
         public void Insert(Computador c)
         {
             OpenConnection();
 
-            string query = "insert into Tarefa(Marca, Modelo, PlacaMae, Mram, Hd, HdMarca, Vprocessador, Foto, IdUsuario) "
+            string query = "insert into Computadores(Marca, Modelo, PlacaMae, Mram, Hd, HdMarca, Vprocessador, Foto, IdUsuario) "
                 + "values(@Marca, @Modelo, @PlacaMae, @Mram, @Hd, @HdMarca, @Vprocessador, @Foto, @IdUsuario)";
 
             cmd = new SqlCommand(query, con);
@@ -36,7 +36,7 @@ namespace Projeto.DAL
             CloseConnection();
         }
 
-        //método para listar as tarefas por data e por usuario..
+        //método para listar as Computadores por data e por usuario..
         public List<Computador> Find(string empresa)
         {
             OpenConnection();
@@ -47,7 +47,7 @@ namespace Projeto.DAL
             cmd.Parameters.AddWithValue("@Empresa", empresa);           
             dr = cmd.ExecuteReader(); //executando e lendo..
 
-            //criando uma lista de tarefas..
+            //criando uma lista de computadores..
             List<Computador> lista = new List<Computador>();
             while (dr.Read()) //percorrendo os registros do SqlDataReader..
             {

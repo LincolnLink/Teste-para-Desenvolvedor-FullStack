@@ -11,14 +11,14 @@ namespace Projeto.BLL
 {
     public class ComputadorBusiness
     {
-        //método para inserir uma tarefa no banco de dados..
+        //método para inserir uma computadores no banco de dados..
         public void Cadastrar(Computador c)
         {
             ComputadorRepositorio rep = new ComputadorRepositorio();
             rep.Insert(c); //gravando..
            
         }
-        //método para listar as tarefas..
+        //método para listar as computadores..
         public List<Computador> Consultar(string empresa)
         {
 
