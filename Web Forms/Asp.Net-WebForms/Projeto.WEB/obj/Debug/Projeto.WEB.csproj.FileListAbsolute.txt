@@ -1,4 +1,3 @@
-C:\Users\link7\Desktop\BlueOpex\Web Forms\Asp.Net-WebForms\Projeto.WEB\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
 C:\Users\link7\Desktop\BlueOpex\Web Forms\Asp.Net-WebForms\Projeto.WEB\bin\Projeto.WEB.dll.config
 C:\Users\link7\Desktop\BlueOpex\Web Forms\Asp.Net-WebForms\Projeto.WEB\bin\Projeto.WEB.dll
 C:\Users\link7\Desktop\BlueOpex\Web Forms\Asp.Net-WebForms\Projeto.WEB\bin\Projeto.WEB.pdb
@@ -13,6 +12,7 @@ C:\Users\link7\Desktop\BlueOpex\Web Forms\Asp.Net-WebForms\Projeto.WEB\bin\rosly
 C:\Users\link7\Desktop\BlueOpex\Web Forms\Asp.Net-WebForms\Projeto.WEB\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
 C:\Users\link7\Desktop\BlueOpex\Web Forms\Asp.Net-WebForms\Projeto.WEB\bin\roslyn\Microsoft.CodeAnalysis.dll
 C:\Users\link7\Desktop\BlueOpex\Web Forms\Asp.Net-WebForms\Projeto.WEB\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\link7\Desktop\BlueOpex\Web Forms\Asp.Net-WebForms\Projeto.WEB\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
 C:\Users\link7\Desktop\BlueOpex\Web Forms\Asp.Net-WebForms\Projeto.WEB\bin\roslyn\Microsoft.CSharp.Core.targets
 C:\Users\link7\Desktop\BlueOpex\Web Forms\Asp.Net-WebForms\Projeto.WEB\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
 C:\Users\link7\Desktop\BlueOpex\Web Forms\Asp.Net-WebForms\Projeto.WEB\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll

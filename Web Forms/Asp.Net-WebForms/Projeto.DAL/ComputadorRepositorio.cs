@@ -16,7 +16,7 @@ namespace Projeto.DAL
         {
             OpenConnection();
 
-            string query = "insert into Computadores(Marca, Modelo, PlacaMae, Mram, Hd, HdMarca, Vprocessador, Foto, IdUsuario) "
+            string query = "insert into Computador(Marca, Modelo, PlacaMae, Mram, Hd, HdMarca, Vprocessador, Foto, IdUsuario) "
                 + "values(@Marca, @Modelo, @PlacaMae, @Mram, @Hd, @HdMarca, @Vprocessador, @Foto, @IdUsuario)";
 
             cmd = new SqlCommand(query, con);
