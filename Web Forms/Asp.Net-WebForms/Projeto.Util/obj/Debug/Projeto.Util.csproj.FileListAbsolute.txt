@@ -1,6 +1,5 @@
 C:\Users\link7\Desktop\BlueOpex\Web Forms\Asp.Net-WebForms\Projeto.Util\bin\Debug\Projeto.Util.dll
 C:\Users\link7\Desktop\BlueOpex\Web Forms\Asp.Net-WebForms\Projeto.Util\bin\Debug\Projeto.Util.pdb
-C:\Users\link7\Desktop\BlueOpex\Web Forms\Asp.Net-WebForms\Projeto.Util\obj\Debug\Projeto.Util.csprojAssemblyReference.cache
 C:\Users\link7\Desktop\BlueOpex\Web Forms\Asp.Net-WebForms\Projeto.Util\obj\Debug\Projeto.Util.csproj.CoreCompileInputs.cache
 C:\Users\link7\Desktop\BlueOpex\Web Forms\Asp.Net-WebForms\Projeto.Util\obj\Debug\Projeto.Util.dll
 C:\Users\link7\Desktop\BlueOpex\Web Forms\Asp.Net-WebForms\Projeto.Util\obj\Debug\Projeto.Util.pdb

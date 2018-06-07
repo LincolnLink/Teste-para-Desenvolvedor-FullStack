@@ -25,6 +25,7 @@ namespace Projeto.BLL
             ComputadorRepositorio rep = new ComputadorRepositorio();
 
             return rep.Find(empresa);
+                   
             
         }
 

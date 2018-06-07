@@ -41,7 +41,7 @@ namespace Projeto.DAL
         {
             OpenConnection();
 
-            string query = " select * from Computadores where IdUsuario = (select IdUsuario from Usuario where Empresa = @Empresa) ";
+            string query = " select * from Computador where IdUsuario = (select IdUsuario from Usuario where Empresa = @Empresa) ";
 
             cmd = new SqlCommand(query, con);
             cmd.Parameters.AddWithValue("@Empresa", empresa);           

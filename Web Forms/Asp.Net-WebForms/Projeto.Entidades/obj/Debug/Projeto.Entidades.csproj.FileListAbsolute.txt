@@ -1,6 +1,5 @@
 C:\Users\link7\Desktop\BlueOpex\Web Forms\Asp.Net-WebForms\Projeto.Entidades\bin\Debug\Projeto.Entidades.dll
 C:\Users\link7\Desktop\BlueOpex\Web Forms\Asp.Net-WebForms\Projeto.Entidades\bin\Debug\Projeto.Entidades.pdb
-C:\Users\link7\Desktop\BlueOpex\Web Forms\Asp.Net-WebForms\Projeto.Entidades\obj\Debug\Projeto.Entidades.csprojAssemblyReference.cache
 C:\Users\link7\Desktop\BlueOpex\Web Forms\Asp.Net-WebForms\Projeto.Entidades\obj\Debug\Projeto.Entidades.csproj.CoreCompileInputs.cache
 C:\Users\link7\Desktop\BlueOpex\Web Forms\Asp.Net-WebForms\Projeto.Entidades\obj\Debug\Projeto.Entidades.dll
 C:\Users\link7\Desktop\BlueOpex\Web Forms\Asp.Net-WebForms\Projeto.Entidades\obj\Debug\Projeto.Entidades.pdb

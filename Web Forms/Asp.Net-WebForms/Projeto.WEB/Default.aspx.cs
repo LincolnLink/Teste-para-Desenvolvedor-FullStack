@@ -58,9 +58,10 @@ namespace Projeto.WEB
             {
                 //instanciar a classe de regras de negócio..
                 UsuarioBusiness business = new UsuarioBusiness();
+                Usuario u = new Usuario();
                 //buscar o usuario pelo login e senha..
-                Usuario u = business.Autenticar(txtLogin.Text, txtSenha.Text);
-
+                u = business.Autenticar(txtLogin.Text, txtSenha.Text);
+                    
                 //criando o ticket de acesso do usuario..
                 FormsAuthenticationTicket ticket = new FormsAuthenticationTicket(u.Login, false, 5);
 
@@ -79,7 +80,8 @@ namespace Projeto.WEB
                 //exibir mensagem de erro..
                 lblMensagem.Text = ex.Message;
                 lblMensagem.ForeColor = Color.Red;
-            }
+            }
+
 
         }
     }

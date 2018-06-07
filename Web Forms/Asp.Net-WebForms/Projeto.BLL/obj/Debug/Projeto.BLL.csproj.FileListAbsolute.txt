@@ -1,9 +1,9 @@
+C:\Users\link7\Desktop\BlueOpex\Web Forms\Asp.Net-WebForms\Projeto.BLL\bin\Debug\Projeto.DAL.pdb
 C:\Users\link7\Desktop\BlueOpex\Web Forms\Asp.Net-WebForms\Projeto.BLL\bin\Debug\Projeto.BLL.dll
 C:\Users\link7\Desktop\BlueOpex\Web Forms\Asp.Net-WebForms\Projeto.BLL\bin\Debug\Projeto.BLL.pdb
 C:\Users\link7\Desktop\BlueOpex\Web Forms\Asp.Net-WebForms\Projeto.BLL\bin\Debug\Projeto.DAL.dll
 C:\Users\link7\Desktop\BlueOpex\Web Forms\Asp.Net-WebForms\Projeto.BLL\bin\Debug\Projeto.Entidades.dll
 C:\Users\link7\Desktop\BlueOpex\Web Forms\Asp.Net-WebForms\Projeto.BLL\bin\Debug\Projeto.Util.dll
-C:\Users\link7\Desktop\BlueOpex\Web Forms\Asp.Net-WebForms\Projeto.BLL\bin\Debug\Projeto.DAL.pdb
 C:\Users\link7\Desktop\BlueOpex\Web Forms\Asp.Net-WebForms\Projeto.BLL\bin\Debug\Projeto.Entidades.pdb
 C:\Users\link7\Desktop\BlueOpex\Web Forms\Asp.Net-WebForms\Projeto.BLL\bin\Debug\Projeto.Util.pdb
 C:\Users\link7\Desktop\BlueOpex\Web Forms\Asp.Net-WebForms\Projeto.BLL\obj\Debug\Projeto.BLL.csprojAssemblyReference.cache
