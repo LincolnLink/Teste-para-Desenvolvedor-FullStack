@@ -17,7 +17,7 @@ namespace Projeto.Entidades
         private string hdMarca;
         private string velocidadeProcessador;
         private string foto;
-        /*private Usuario empresa;*/
+        private Usuario usuario;
 
         public Computador()
         {
@@ -143,6 +143,18 @@ namespace Projeto.Entidades
             set
             {
                 foto = value;
+            }
+        }
+
+        public Usuario Usuario
+        {
+            get
+            {
+                return usuario;
+            }
+            set
+            {
+                usuario = value;
             }
         }
 

@@ -14,7 +14,7 @@ namespace Projeto.Entidades
         private string login;
         private string senha;
         private string empresa;
-        /*private List<Computador> idComputador;*/
+        private List<Computador> computador;
 
         public Usuario()
         {
@@ -90,6 +90,18 @@ namespace Projeto.Entidades
             }
         }
         
+        public List<Computador> Computador
+        {
+            get
+            {
+                return computador;
+            }
+
+            set
+            {
+                computador = value;
+            }
+        }
 
         public override string ToString()
         {

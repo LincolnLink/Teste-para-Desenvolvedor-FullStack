@@ -21,15 +21,42 @@
 
 </head>
 <body class="container">
+
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">BlueOpex teste</a>
+            </div>
+           
+        </div>
+    </nav>
     <form id="form1" runat="server">
         <div>
-            <div class="well well-sm jumbotron">
-                <h2>Sistema de Agenda</h2>
+            <div class="well well-sm jumbotron" style="margin-top: -20px;">
+                <h2>Sistema de BlueOpex</h2>
+                 <ul class="">
+                    <li>
+                        <a href="/AreaRestrita/CadastroPC.aspx"> Cadastrar Tarefas</a>
+                    </li>
+                    <li>
+                        <a href="/AreaRestrita/ConsultaPC.aspx"> Consultar Tarefas</a>
+                    </li>
+                </ul>
             </div>
 
             <div class="row">
                 <div class="col-md-3">
                     <strong>Usuário Autenticado</strong>
+
+                    <asp:Image ID="imgUsuario" runat="server" Width="100" CssClass="img-circle" /> 
+                    <br /> <br />
+
+                    <asp:Label ID="lblNomeUsuario" runat="server" Font-Size="Larger" /> 
+                    <br /> <asp:Label ID="lblLoginUsuario" runat="server" /> 
+                    <br /> <br />
+
+                    <asp:Button ID="btnLogout" runat="server" Text="Sair do Sistema"
+                        CssClass="btn btn-default" OnClick="BtnLogout_Click" />
                 </div>
 
                 <div class="col-md-6">
