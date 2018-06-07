@@ -20,6 +20,9 @@ namespace Projeto.WEB.AreaRestrita.Templates
                 Usuario u = (Usuario)Session["usuario"]; //casting..
                                                          //exibir os dados do usuario..
 
+
+                lblLogo.Text = "Empresa: " + u.Empresa; //populando o grid..
+                
             }
 
         }

@@ -19,7 +19,7 @@
     <div class="row">
         <div class="col-md-12">
             <asp:GridView ID="gridPc" runat="server"
-            CssClass="table table-hover" >
+            CssClass="table table-hover" GridLines="None" AutoGenerateColumns="false">
 
                 <EmptyDataTemplate>
                 Nenhuma tarefa foi encontrada
@@ -57,17 +57,18 @@
                     </asp:TemplateField>
                     <asp:TemplateField HeaderText="Marca do HD">
                         <ItemTemplate>
-                        <%# Eval("HdMarco ") %>
+                        <%# Eval("HdMarca ") %>
                         </ItemTemplate>
                     </asp:TemplateField>
                      <asp:TemplateField HeaderText="Velocidade do Processador">
                         <ItemTemplate>
                         <%# Eval("VelocidadeProcessador ") %>
                         </ItemTemplate>
-                    </asp:TemplateField>
-                   
+                    </asp:TemplateField>                   
+                      
                 </Columns>
-
+                 
+                 
             </asp:GridView>
         </div>
     </div>

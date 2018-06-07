@@ -31,13 +31,13 @@ namespace Projeto.WEB.AreaRestrita.Templates {
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
         
         /// <summary>
-        /// Controle imgUsuario.
+        /// Controle lblLogo.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Image imgUsuario;
+        protected global::System.Web.UI.WebControls.Label lblLogo;
         
         /// <summary>
         /// Controle lblNomeUsuario.

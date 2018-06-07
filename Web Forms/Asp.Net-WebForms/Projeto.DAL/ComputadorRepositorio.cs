@@ -52,6 +52,7 @@ namespace Projeto.DAL
             while (dr.Read()) //percorrendo os registros do SqlDataReader..
             {
                 Computador c = new Computador();
+                c.Usuario = new Usuario();
                 c.IdComputador = Convert.ToInt32(dr["IdComputador"]);
                 c.Marca = Convert.ToString(dr["Marca"]);
                 c.Modelo = Convert.ToString(dr["Modelo"]);
