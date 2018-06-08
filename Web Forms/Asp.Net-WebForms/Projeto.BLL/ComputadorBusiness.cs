@@ -24,9 +24,15 @@ namespace Projeto.BLL
 
             ComputadorRepositorio rep = new ComputadorRepositorio();
 
-            return rep.Find(empresa);
-                   
-            
+            return rep.Find(empresa); 
+        }
+
+        //método para listar as computadores pela marca!
+        public List<Computador> ConsultarPelaMarca(string marca)
+        {
+            ComputadorRepositorio rep = new ComputadorRepositorio();
+
+            return rep.findByMarca(marca);
         }
 
     }

@@ -13,13 +13,13 @@ namespace Projeto.WEB.AreaRestrita {
     public partial class ConsultaPC {
         
         /// <summary>
-        /// Controle txtEmpresa.
+        /// Controle txtMarca.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtEmpresa;
+        protected global::System.Web.UI.WebControls.TextBox txtMarca;
         
         /// <summary>
         /// Controle btnConsulta.

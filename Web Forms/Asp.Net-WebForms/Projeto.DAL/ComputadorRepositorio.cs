@@ -69,5 +69,39 @@ namespace Projeto.DAL
             CloseConnection();
             return lista;
         }
+
+        public List<Computador> findByMarca(string marca)
+        {
+            OpenConnection();
+
+            string query = "select * from Computador where Marca LIKE'%@Marca%'";
+
+            cmd = new SqlCommand(query, con);
+            cmd.Parameters.AddWithValue("@Marca", marca);
+            dr = cmd.ExecuteReader(); //executando e lendo..
+
+            //criando uma lista de computadores..
+            List<Computador> lista = new List<Computador>();
+            while (dr.Read()) //percorrendo os registros do SqlDataReader..
+            {
+                Computador c = new Computador();
+                c.Usuario = new Usuario();
+
+                c.IdComputador = Convert.ToInt32(dr["IdComputador"]);
+                c.Marca = Convert.ToString(dr["Marca"]);
+                c.Modelo = Convert.ToString(dr["Modelo"]);
+                c.PlacaMae = Convert.ToString(dr["PlacaMae"]);
+                c.MemoriaRAM = Convert.ToInt32(dr["Mram"]);
+                c.HdArmazenamento = Convert.ToInt32(dr["Hd"]);
+                c.HdMarca = Convert.ToString(dr["HdMarca"]);
+                c.VelocidadeProcessador = Convert.ToString(dr["Vprocessador"]);
+                c.Foto = Convert.ToString(dr["Foto"]);
+                c.Usuario.IdUsuario = Convert.ToInt32(dr["IdUsuario"]);
+
+                lista.Add(c); //adicionar na lista..
+            }
+                CloseConnection();
+            return lista;
+        }
     }
 }

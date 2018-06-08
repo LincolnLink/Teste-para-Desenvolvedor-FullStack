@@ -2,15 +2,17 @@
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
      <h4>Consulta de Computador</h4>
-    <hr />    <div class="row">
-        <div class="col-md-4">
-            <!--<label>Empresa:</label>
-            <asp:TextBox ID="txtEmpresa" runat="server"
-            CssClass="form-control" type="date" />
-            <br />-->
+    <hr />
+
+    <div class="row">
+        <div class="col-md-12">
+            <label>Digite a marca do computador: </label>
+            <asp:TextBox ID="txtMarca" runat="server"
+            CssClass="form-control" type="text" />
+            <br />
 
             <asp:Button ID="btnConsulta" runat="server"
-            CssClass="btn btn-primary" Text="Pesquisar Computador" OnClick="BtnConsulta_Click" />
+            CssClass="btn btn-primary" Text="Buscar Computador" OnClick="BtnConsulta_Click" />
             <br />
             <br />
             <asp:Label ID="lblMensagem" runat="server" />
@@ -22,7 +24,7 @@
             CssClass="table table-hover" GridLines="None" AutoGenerateColumns="false">
 
                 <EmptyDataTemplate>
-                Nenhuma tarefa foi encontrada
+                Nenhum computador foi encontrado!
                 </EmptyDataTemplate>
                 <Columns>
                      <asp:TemplateField HeaderText="ID">
@@ -71,5 +73,6 @@
                  
             </asp:GridView>
         </div>
-    </div>
+    </div>
+
 </asp:Content>

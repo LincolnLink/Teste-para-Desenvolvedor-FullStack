@@ -13,32 +13,44 @@ namespace Projeto.WEB.AreaRestrita
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            //verificar se a página esta sendo carregada pela 1º vez..
+            if (!IsPostBack)
+            {
+                try
+                {
+                    Usuario u = new Usuario();
+                    //recuperar o usuario da sessão..
+                    u = (Usuario)Session["usuario"]; //casting..
+                                                     //resgatar as datas informadas nos campos..
 
+                    //executar a consulta..
+                    ComputadorBusiness business = new ComputadorBusiness();
+
+                    List<Computador> lista = business.Consultar(u.Empresa);
+                    
+                    //populando o gridview..
+                    gridPc.DataSource = lista; //populando o grid..
+                    gridPc.DataBind(); //exibindo o conteudo
+                }
+                catch (Exception ex)
+                {
+                    //exibir mensagem de erro..
+                    lblMensagem.Text = ex.Message;
+                }
+
+            }
         }
-
         protected void BtnConsulta_Click(object sender, EventArgs e)
         {
-            try
-            {
-                Usuario u = new Usuario();
-                //recuperar o usuario da sessão..
-                u = (Usuario)Session["usuario"]; //casting..
-                                                         //resgatar as datas informadas nos campos..
+            Usuario u = new Usuario();
+            string marca = txtMarca.Text;
 
-                //executar a consulta..
-                ComputadorBusiness business = new ComputadorBusiness();
-                
-                List<Computador> lista = business.Consultar(u.Empresa);
-                Console.WriteLine(lista);
-                //populando o gridview..
-                gridPc.DataSource = lista; //populando o grid..
-                gridPc.DataBind(); //exibindo o conteudo
-            }
-            catch (Exception ex)
-            {
-                //exibir mensagem de erro..
-                lblMensagem.Text = ex.Message; Console.WriteLine("aki");
-            }
+            ComputadorBusiness pc = new ComputadorBusiness();
+
+            List<Computador> listaMarca = pc.ConsultarPelaMarca(marca);
+
+            gridPc.DataSource = listaMarca; //populando o grid..
+            gridPc.DataBind(); //exibindo o conteudo
         }
     }
 }

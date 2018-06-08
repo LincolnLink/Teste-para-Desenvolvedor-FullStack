@@ -51,7 +51,7 @@ namespace Projeto.WEB.AreaRestrita
                     txtFoto.SaveAs(path + c.Foto);
                     //upload -> /Imagens/meuusuario/minhafoto.jpg
 
-                    lblMensagem.Text = "Computador" + c.Marca + ", cadastrado com sucesso.";
+                    lblMensagem.Text = "Computador " + c.Marca + ", cadastrado com sucesso.";
 
                     //limpar os campos do formulário..
                     txtMarca.Text = string.Empty; //vazio..
