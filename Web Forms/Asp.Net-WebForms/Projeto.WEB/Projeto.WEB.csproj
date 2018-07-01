@@ -68,9 +68,9 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Data\banco.mdf" />
-    <Content Include="App_Data\banco_log.ldf">
-      <DependentUpon>banco.mdf</DependentUpon>
+    <Content Include="App_Data\bancodedados.mdf" />
+    <Content Include="App_Data\bancodedados_log.ldf">
+      <DependentUpon>bancodedados.mdf</DependentUpon>
     </Content>
     <Content Include="AreaRestrita\CadastroPC.aspx" />
     <Content Include="AreaRestrita\ConsultaPC.aspx" />
@@ -120,7 +120,9 @@
     <Content Include="Scripts\umd\popper-utils.min.js" />
     <Content Include="Scripts\umd\popper.js" />
     <Content Include="Scripts\umd\popper.min.js" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AreaRestrita\CadastroPC.aspx.cs">
@@ -204,6 +206,10 @@
     <ProjectReference Include="..\Projeto.Entidades\Projeto.Entidades.csproj">
       <Project>{ae7f5e3a-a005-4f8f-859f-ea3a2e4498f6}</Project>
       <Name>Projeto.Entidades</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Projeto.Util\Projeto.Util.csproj">
+      <Project>{5432c78f-8763-4c92-a680-869b8796bc45}</Project>
+      <Name>Projeto.Util</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>

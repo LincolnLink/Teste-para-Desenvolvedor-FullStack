@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Data.SqlClient;
+using System.Configuration;
 
 namespace Projeto.DAL
 {
@@ -16,7 +17,7 @@ namespace Projeto.DAL
 
         protected void OpenConnection()
         {
-            con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\link7\Desktop\BlueOpex\Web Forms\Asp.Net-WebForms\Projeto.WEB\App_Data\banco.mdf;Integrated Security=True");
+            con = new SqlConnection(ConfigurationManager.ConnectionStrings["banco"].ConnectionString);
             con.Open(); //conectando!
         }
 

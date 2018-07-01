@@ -101,7 +101,9 @@
                                     
                                     <asp:RegularExpressionValidator ID="regexSenha" runat="server" 
                                         ErrorMessage="Senha inválida. Sua senha deve conter no minimo 3 e no máximo 25 digitos, sendo no minimo uma letra minuscula, uma letra maiuscula, um número e um caracter especial (#*.@)."
-                                        Display="Dynamic" ControlToValidate="txtSenhaAcesso"                                         ValidationExpression="^.*(?=.{3,25}).*$"                                         ForeColor="Red" ValidationGroup="formularioCadastro" />
+                                        Display="Dynamic" ControlToValidate="txtSenhaAcesso" 
+                                        ValidationExpression="^.*(?=.{3,25}).*$" 
+                                        ForeColor="Red" ValidationGroup="formularioCadastro" />
                                         
                                 </div>
                                 <div class="col-md-6">

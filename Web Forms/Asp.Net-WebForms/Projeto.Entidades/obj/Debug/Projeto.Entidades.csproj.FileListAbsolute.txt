@@ -4,3 +4,9 @@ C:\Users\link7\Desktop\BlueOpex\Web Forms\Asp.Net-WebForms\Projeto.Entidades\obj
 C:\Users\link7\Desktop\BlueOpex\Web Forms\Asp.Net-WebForms\Projeto.Entidades\obj\Debug\Projeto.Entidades.csproj.CoreCompileInputs.cache
 C:\Users\link7\Desktop\BlueOpex\Web Forms\Asp.Net-WebForms\Projeto.Entidades\obj\Debug\Projeto.Entidades.dll
 C:\Users\link7\Desktop\BlueOpex\Web Forms\Asp.Net-WebForms\Projeto.Entidades\obj\Debug\Projeto.Entidades.pdb
+D:\Estudo e Projetos\BlueOpex\Projeto\BlueOpex\Web Forms\Asp.Net-WebForms\Projeto.Entidades\bin\Debug\Projeto.Entidades.dll
+D:\Estudo e Projetos\BlueOpex\Projeto\BlueOpex\Web Forms\Asp.Net-WebForms\Projeto.Entidades\bin\Debug\Projeto.Entidades.pdb
+D:\Estudo e Projetos\BlueOpex\Projeto\BlueOpex\Web Forms\Asp.Net-WebForms\Projeto.Entidades\obj\Debug\Projeto.Entidades.csprojAssemblyReference.cache
+D:\Estudo e Projetos\BlueOpex\Projeto\BlueOpex\Web Forms\Asp.Net-WebForms\Projeto.Entidades\obj\Debug\Projeto.Entidades.csproj.CoreCompileInputs.cache
+D:\Estudo e Projetos\BlueOpex\Projeto\BlueOpex\Web Forms\Asp.Net-WebForms\Projeto.Entidades\obj\Debug\Projeto.Entidades.dll
+D:\Estudo e Projetos\BlueOpex\Projeto\BlueOpex\Web Forms\Asp.Net-WebForms\Projeto.Entidades\obj\Debug\Projeto.Entidades.pdb

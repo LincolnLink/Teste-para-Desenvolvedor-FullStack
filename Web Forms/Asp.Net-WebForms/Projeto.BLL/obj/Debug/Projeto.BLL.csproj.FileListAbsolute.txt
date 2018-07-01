@@ -11,3 +11,16 @@ C:\Users\link7\Desktop\BlueOpex\Web Forms\Asp.Net-WebForms\Projeto.BLL\obj\Debug
 C:\Users\link7\Desktop\BlueOpex\Web Forms\Asp.Net-WebForms\Projeto.BLL\obj\Debug\Projeto.BLL.csproj.CopyComplete
 C:\Users\link7\Desktop\BlueOpex\Web Forms\Asp.Net-WebForms\Projeto.BLL\obj\Debug\Projeto.BLL.dll
 C:\Users\link7\Desktop\BlueOpex\Web Forms\Asp.Net-WebForms\Projeto.BLL\obj\Debug\Projeto.BLL.pdb
+D:\Estudo e Projetos\BlueOpex\Projeto\BlueOpex\Web Forms\Asp.Net-WebForms\Projeto.BLL\bin\Debug\Projeto.BLL.dll
+D:\Estudo e Projetos\BlueOpex\Projeto\BlueOpex\Web Forms\Asp.Net-WebForms\Projeto.BLL\bin\Debug\Projeto.BLL.pdb
+D:\Estudo e Projetos\BlueOpex\Projeto\BlueOpex\Web Forms\Asp.Net-WebForms\Projeto.BLL\bin\Debug\Projeto.DAL.dll
+D:\Estudo e Projetos\BlueOpex\Projeto\BlueOpex\Web Forms\Asp.Net-WebForms\Projeto.BLL\bin\Debug\Projeto.Entidades.dll
+D:\Estudo e Projetos\BlueOpex\Projeto\BlueOpex\Web Forms\Asp.Net-WebForms\Projeto.BLL\bin\Debug\Projeto.Util.dll
+D:\Estudo e Projetos\BlueOpex\Projeto\BlueOpex\Web Forms\Asp.Net-WebForms\Projeto.BLL\bin\Debug\Projeto.DAL.pdb
+D:\Estudo e Projetos\BlueOpex\Projeto\BlueOpex\Web Forms\Asp.Net-WebForms\Projeto.BLL\bin\Debug\Projeto.Entidades.pdb
+D:\Estudo e Projetos\BlueOpex\Projeto\BlueOpex\Web Forms\Asp.Net-WebForms\Projeto.BLL\bin\Debug\Projeto.Util.pdb
+D:\Estudo e Projetos\BlueOpex\Projeto\BlueOpex\Web Forms\Asp.Net-WebForms\Projeto.BLL\obj\Debug\Projeto.BLL.csprojAssemblyReference.cache
+D:\Estudo e Projetos\BlueOpex\Projeto\BlueOpex\Web Forms\Asp.Net-WebForms\Projeto.BLL\obj\Debug\Projeto.BLL.csproj.CoreCompileInputs.cache
+D:\Estudo e Projetos\BlueOpex\Projeto\BlueOpex\Web Forms\Asp.Net-WebForms\Projeto.BLL\obj\Debug\Projeto.BLL.csproj.CopyComplete
+D:\Estudo e Projetos\BlueOpex\Projeto\BlueOpex\Web Forms\Asp.Net-WebForms\Projeto.BLL\obj\Debug\Projeto.BLL.dll
+D:\Estudo e Projetos\BlueOpex\Projeto\BlueOpex\Web Forms\Asp.Net-WebForms\Projeto.BLL\obj\Debug\Projeto.BLL.pdb
