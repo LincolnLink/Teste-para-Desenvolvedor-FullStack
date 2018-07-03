@@ -74,6 +74,7 @@
     </Content>
     <Content Include="AreaRestrita\CadastroPC.aspx" />
     <Content Include="AreaRestrita\ConsultaPC.aspx" />
+    <Content Include="AreaRestrita\EdicaoPC.aspx" />
     <Content Include="AreaRestrita\Home.aspx" />
     <Content Include="Content\bootstrap-grid.css" />
     <Content Include="Content\bootstrap-grid.min.css" />
@@ -138,6 +139,13 @@
     </Compile>
     <Compile Include="AreaRestrita\ConsultaPC.aspx.designer.cs">
       <DependentUpon>ConsultaPC.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AreaRestrita\EdicaoPC.aspx.cs">
+      <DependentUpon>EdicaoPC.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AreaRestrita\EdicaoPC.aspx.designer.cs">
+      <DependentUpon>EdicaoPC.aspx</DependentUpon>
     </Compile>
     <Compile Include="AreaRestrita\Home.aspx.cs">
       <DependentUpon>Home.aspx</DependentUpon>

@@ -18,6 +18,14 @@ namespace Projeto.BLL
             rep.Insert(c); //gravando..
            
         }
+
+        //método para atualizar o Computador
+        public void Atualizar(Computador c)
+        {
+            ComputadorRepositorio rep = new ComputadorRepositorio();
+            rep.update(c); //atualizando!
+        }
+
         //método para listar as computadores..
         public List<Computador> Consultar(string empresa)
         {
@@ -25,6 +33,13 @@ namespace Projeto.BLL
             ComputadorRepositorio rep = new ComputadorRepositorio();
 
             return rep.Find(empresa); 
+        }
+
+        //método para buscar por ID
+        public Computador ConsultarPorId(int id)
+        {
+            ComputadorRepositorio rep = new ComputadorRepositorio();
+            return rep.FindById(id);
         }
 
         //método para listar as computadores pela marca!

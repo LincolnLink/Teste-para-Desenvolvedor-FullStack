@@ -17,10 +17,9 @@ namespace Projeto.WEB.AreaRestrita.Templates
             if (!IsPostBack)
             {
                 //trazer o usuário da sessão..
-                Usuario u = (Usuario)Session["usuario"]; //casting..
-                                                         //exibir os dados do usuario..
-
-
+                Usuario u = (Usuario)Session["usuario"]; 
+                //casting..
+                //exibir os dados do usuario..
                 lblLogo.Text = "Empresa: " + u.Empresa; //populando o grid..
                 
             }

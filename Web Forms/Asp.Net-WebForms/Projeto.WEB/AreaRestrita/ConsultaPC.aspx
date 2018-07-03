@@ -47,26 +47,11 @@
                         <%# Eval("PlacaMae") %>
                         </ItemTemplate>
                     </asp:TemplateField>
-                    <asp:TemplateField HeaderText="Memória RAM">
+                    <asp:TemplateField HeaderText="Foto">
                         <ItemTemplate>
-                        <%# Eval("MemoriaRAM") %>
+                            <asp:Image runat="server" ImageUrl='<%# Eval("Foto") %>' Height="40px" Width="60px"  />
                         </ItemTemplate>
                     </asp:TemplateField>
-                     <asp:TemplateField HeaderText="HD Armazenamento">
-                        <ItemTemplate>
-                        <%# Eval("HdArmazenamento ") %>
-                        </ItemTemplate>
-                    </asp:TemplateField>
-                    <asp:TemplateField HeaderText="Marca do HD">
-                        <ItemTemplate>
-                        <%# Eval("HdMarca ") %>
-                        </ItemTemplate>
-                    </asp:TemplateField>
-                     <asp:TemplateField HeaderText="Velocidade do Processador">
-                        <ItemTemplate>
-                        <%# Eval("VelocidadeProcessador ") %>
-                        </ItemTemplate>
-                    </asp:TemplateField>                   
                       
                 </Columns>
                  

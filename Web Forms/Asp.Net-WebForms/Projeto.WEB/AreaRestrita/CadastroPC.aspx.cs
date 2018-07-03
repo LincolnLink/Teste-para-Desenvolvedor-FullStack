@@ -37,7 +37,7 @@ namespace Projeto.WEB.AreaRestrita
                     c.Usuario = (Usuario)Session["usuario"]; //usuário autenticado..
 
                     string nomeArquivo = Guid.NewGuid().ToString() + Path.GetExtension(txtFoto.FileName);
-
+                                       
                     c.Foto = c.Usuario.Login + "/" + nomeArquivo;
 
                     ComputadorBusiness business = new ComputadorBusiness();

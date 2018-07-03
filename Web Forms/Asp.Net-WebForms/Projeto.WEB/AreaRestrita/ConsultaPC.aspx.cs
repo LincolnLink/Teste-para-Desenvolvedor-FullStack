@@ -5,7 +5,8 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 using Projeto.Entidades;
-using Projeto.BLL;
+using Projeto.BLL;
+
 
 namespace Projeto.WEB.AreaRestrita
 {
@@ -27,7 +28,10 @@ namespace Projeto.WEB.AreaRestrita
                     ComputadorBusiness business = new ComputadorBusiness();
 
                     List<Computador> lista = business.Consultar(u.Empresa);
-                    
+                    for (var i = 0; lista.Count > i ; i++) {
+                        lista[i].Foto = "../Imagens/" + lista[i].Foto;
+                    };
+
                     //populando o gridview..
                     gridPc.DataSource = lista; //populando o grid..
                     gridPc.DataBind(); //exibindo o conteudo
